@@ -3,7 +3,7 @@ using Troposphere and execute it.
 
 The directory structure is as follows :
 
-Template -
+Template -<br />
 |--- main.py -- This is the main driver program which will run the whole script<br />
 |--- vpc.py  -- This template consist of definitions to create all the vpc resources including vpc,subnets,nat gateway, route table, routes and all the subnet assocition with route table.<br />
 |--- asg.py  -- This template consist of definitions to create all the autoscaling group resources.<br />
