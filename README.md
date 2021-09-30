@@ -4,12 +4,12 @@ using Troposphere and execute it.
 The directory structure is as follows :
 
 Template -<br />
-|--- main.py -- This is the main driver program which will run the whole script<br />
-|--- vpc.py  -- This template consist of definitions to create all the vpc resources including vpc,subnets,nat gateway, route table, routes and all the subnet assocition with route table.<br />
-|--- asg.py  -- This template consist of definitions to create all the autoscaling group resources.<br />
-|--- alb.py  -- This template consist of definitions to create all the load balancers resources including target group and application load balancer.<br />
-|--- alarms.py -- This template consist of definitions to sns topic notifications and cloud watch alarms resources.<br />
-|--- s3bucket.py -- This template consist of definitions to create s3 bucket for ngnix logs.<br />
+|--- main.py -- This is the main driver program which will run the whole script<br /><br />
+|--- vpc.py  -- This template consist of definitions to create all the vpc resources including vpc,subnets,nat gateway, route table, routes and all the subnet assocition with route table.<br /><br />
+|--- asg.py  -- This template consist of definitions to create all the autoscaling group resources.<br /><br />
+|--- alb.py  -- This template consist of definitions to create all the load balancers resources including target group and application load balancer.<br /><br />
+|--- alarms.py -- This template consist of definitions to sns topic notifications and cloud watch alarms resources.<br /><br />
+|--- s3bucket.py -- This template consist of definitions to create s3 bucket for ngnix logs.<br /><br />
 
 This script can be executed by running the main.py file and by passing all required cli parameters.
 
